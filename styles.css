@@ -1,0 +1,114 @@
+/* 
+    downloaded fonts: 
+
+    font-family: 'Comfortaa', cursive;
+
+    font-family: 'Montserrat', sans-serif;
+
+    font-family: 'Montserrat Alternates', sans-serif;
+
+    font-family: 'Nunito', sans-serif;
+
+    font-family: 'Work Sans', sans-serif; 
+
+*/
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: #3f3e3e;
+    margin: 0;
+    background-color: #e8e9f3;
+}
+
+main {
+    margin: 75px 25px;
+}
+
+/* 
+navbar styling
+*/
+
+nav {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    position: fixed;
+    top: 0;
+    padding: 5px;
+    background-color: #cecece;
+    border-bottom: 5px solid #a44a3f;
+    box-shadow: 0px 5px 10px #a6a6a8;
+}
+
+nav>*{
+    font-family: "Work Sans", sans-serif;
+    font-size: 1.2em;
+    padding: 10px;
+    border-radius: 5%;
+}
+
+nav>*:hover {
+    background-color: #a6a6a8;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-menu{
+    display: none;
+    position: absolute;
+    font-size: 0.9em;
+    min-width: 190px;
+    background-color: #cecece;
+    border-left: 5px #a44a3f solid;
+    border-radius: 2%;
+    padding: 5px;
+    margin-top: 10px;
+    left: -5px;
+    box-shadow: 5px 5px 10px #a6a6a8;
+}
+
+.dropdown-menu>a{
+    padding: 5px;
+    display: block;
+    border-bottom: 2px solid #a6a6a8;
+}
+
+.dropdown-menu>a:hover {
+    background-color: #a6a6a8;
+}
+
+.dropdown:hover .dropdown-menu{
+    display: block;
+}
+
+/* 
+intro styling
+*/
+.intro {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    grid-template-rows: 100px auto;
+    grid-template-areas: 
+    "a b"
+    "a c";
+}
+
+h1 {
+    grid-area: b;
+    padding-top: 10px;
+}
+
+.intro>p{
+    grid-area: c;
+    justify-self: flex-start;
+    margin-top: 0;
+    font-size: 1.25em;
+}
+
+.intro>img {
+    grid-area: a;
+    width: 100%;
+}
