@@ -5,24 +5,34 @@
 
     font-family: 'Montserrat', sans-serif;
 
-    font-family: 'Montserrat Alternates', sans-serif;
-
     font-family: 'Nunito', sans-serif;
 
     font-family: 'Work Sans', sans-serif; 
 
+    font-family: 'Baloo Tammudu 2', sans-serif;
+
 */
 
 body {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Work Sans', sans-serif;
     color: #3f3e3e;
     margin: 0;
     background-color: #e8e9f3;
 }
 
 main {
-    margin: 75px 25px;
+    margin: 100px 50px;
 }
+
+a {
+    text-decoration: none;
+    color: #3f3e3e;
+}
+
+p {
+    font-size: 1.25em;
+}
+
 
 /* 
 navbar styling
@@ -41,8 +51,9 @@ nav {
 }
 
 nav>*{
-    font-family: "Work Sans", sans-serif;
+    font-family: "Comfortaa", sans-serif;
     font-size: 1.2em;
+    font-weight: bold;
     padding: 10px;
     border-radius: 5%;
 }
@@ -74,6 +85,7 @@ nav>*:hover {
     padding: 5px;
     display: block;
     border-bottom: 2px solid #a6a6a8;
+    font-weight: normal;
 }
 
 .dropdown-menu>a:hover {
@@ -85,12 +97,16 @@ nav>*:hover {
 }
 
 /* 
+HOME PAGE STYLING
+*/
+
+/* 
 intro styling
 */
 .intro {
     display: grid;
     grid-template-columns: 40% 60%;
-    grid-template-rows: 100px auto;
+    grid-template-rows: 125px auto;
     grid-template-areas: 
     "a b"
     "a c";
@@ -99,16 +115,94 @@ intro styling
 h1 {
     grid-area: b;
     padding-top: 10px;
+    font-family: "Comfortaa", sans-serif;
+    font-size: 2.75em;
 }
 
 .intro>p{
     grid-area: c;
     justify-self: flex-start;
     margin-top: 0;
-    font-size: 1.25em;
+    font-size: 1.5em;
 }
 
 .intro>img {
     grid-area: a;
-    width: 100%;
+    width: 50%;
+    margin: auto;
+    margin-top: 25px;
 }
+
+@media (max-width: 500px) {
+    .intro {
+        grid-template-rows: 150px auto auto;
+        grid-template-columns: auto;
+        grid-template-areas: 
+        "b"
+        "a"
+        "c";
+    }
+
+    h1{
+        margin: auto;
+    }
+}
+
+/* 
+showcase styling
+*/
+.showcase {
+    height: 1000px;
+    border: 5px turquoise solid;
+}
+
+/*
+TTRPG PAGE STYLING
+*/
+main>article {
+    border: 5px turquoise solid;
+    margin-top: 50px;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+p>a {
+    color:#a44a3f;
+    font-weight: bold;
+}
+
+@counter-style lightning {
+    system: cyclic;
+    symbols:  "\26A1" ;
+    suffix: " ";
+}
+
+li {
+    font-size: 1.15em;
+    list-style: lightning;
+}
+
+li>em {
+    font-style: normal;
+    font-weight: bold;
+}
+
+h2 {
+    font-family: "Baloo Tammudu 2", sans-serif;
+    font-size: 2.5em;
+    margin: 0;
+}
+
+h2>i {
+    color: #a6a6a8;
+    font-weight: normal;
+    font-size: 0.8em;
+}
+
+p>em {
+    /* color:#1471bd; */
+    font-style: normal;
+    font-weight: bold;
+}
+
