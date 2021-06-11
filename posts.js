@@ -3,9 +3,46 @@
 // make a database of art posts to generate/fill based on what page you're on
 
 // maybe posts from recent dates or priority numbers fill into home ? or with certain ids? unsure
+const starless_images = [
+    'assets/ttrpgs/starless/rileyrefsheet1.png',
+    'assets/ttrpgs/starless/riley_drowning.jpg',
+    'assets/ttrpgs/starless/riley_meditate.jpg',
+    'assets/ttrpgs/starless/rileyblood.png',
+    'assets/ttrpgs/starless/rileyleahclose.jpg',
+    'assets/ttrpgs/starless/rileyleahliedown.png',
+    'assets/ttrpgs/starless/rileyleahpride1.png',
+    'assets/ttrpgs/starless/rileysword.jpg'
+]
 
 const dreamscape_images = [
-    'assets/ttrpgs/dreamscape/ashter.png'
+    'assets/ttrpgs/dreamscape/ashter.png',
+    'assets/ttrpgs/dreamscape/walkingthrustatic.jpg',
+    'assets/ttrpgs/dreamscape/asterbathingsuit.png',
+    'assets/ttrpgs/dreamscape/asheconcept.png',
+    'assets/ttrpgs/dreamscape/asterandieamy.png',
+    'assets/ttrpgs/dreamscape/asterandiefancy.png',
+    'assets/ttrpgs/dreamscape/asterandielittle.png',
+    'assets/ttrpgs/dreamscape/asterandieold.png',
+    'assets/ttrpgs/dreamscape/asterandietimeline.png',
+    'assets/ttrpgs/dreamscape/asterashechibialt.png',
+    'assets/ttrpgs/dreamscape/asterashecuddle.png',
+    'assets/ttrpgs/dreamscape/asterashedoodles.jpg',
+    'assets/ttrpgs/dreamscape/asterashehaircut.png',
+    'assets/ttrpgs/dreamscape/asterashepiggyback.png',
+    'assets/ttrpgs/dreamscape/asterashesweaters.png',
+    'assets/ttrpgs/dreamscape/asterashewedding.png',
+    'assets/ttrpgs/dreamscape/asterashewinter.png',
+    'assets/ttrpgs/dreamscape/asterashexmas.png',
+    'assets/ttrpgs/dreamscape/asterbathingsuit.png',
+    'assets/ttrpgs/dreamscape/asterdad.jpg',
+    'assets/ttrpgs/dreamscape/asterdoodles.png',
+    'assets/ttrpgs/dreamscape/asterfashion.png',
+    'assets/ttrpgs/dreamscape/asteroutfits.png',
+    'assets/ttrpgs/dreamscape/chungfam.png',
+    'assets/ttrpgs/dreamscape/core3xmas.png',
+    'assets/ttrpgs/dreamscape/gang.jpg',
+    'assets/ttrpgs/dreamscape/gotyouflowers.jpg',
+    'assets/ttrpgs/dreamscape/sleepyheads.png'
 ]
 
 const sky_high_images = [
@@ -52,6 +89,43 @@ const sky_high_animations = [
     'assets/ttrpgs/sky_high/taikaearlygif.gif'
 ]
 
+const world_tour_images = [
+    'assets/ttrpgs/world_tour/cassgetstorest.png',
+    'assets/ttrpgs/world_tour/casssuit.png',
+    'assets/ttrpgs/world_tour/casscane.jpg',
+    'assets/ttrpgs/world_tour/casscasketland.png',
+    'assets/ttrpgs/world_tour/cassclairedungeonworld.png',
+    'assets/ttrpgs/world_tour/cassdungeonworld.png'
+]
+
+const phoenix_images = [
+    'assets/ttrpgs/phoenix/figspotify.jpg',
+    'assets/ttrpgs/phoenix/figsheet.jpg',
+    'assets/ttrpgs/phoenix/figdresses.png',
+    'assets/ttrpgs/phoenix/figfamily.png'
+]
+
+const children_images = [
+    'assets/ttrpgs/children/briardesign.png',
+    'assets/ttrpgs/children/briarfire.jpg',
+    'assets/ttrpgs/children/briarjar.png',
+    'assets/ttrpgs/children/briarconcept.png'
+]
+
+const misc_images = [
+    'assets/ttrpgs/misc/pcs.png',
+    'assets/ttrpgs/misc/masksteamdesigns.png',
+    'assets/ttrpgs/misc/masksteamflowers.png',
+    'assets/ttrpgs/misc/masksteamheads.png',
+    'assets/ttrpgs/misc/masksteamconcept.png',
+    'assets/ttrpgs/misc/jaimehannah.png',
+    'assets/ttrpgs/misc/jaimesheet.png',
+    'assets/ttrpgs/misc/cloudharborteens.png',
+    'assets/ttrpgs/misc/grace.png',
+    'assets/ttrpgs/misc/nikoconcept.png',
+    'assets/ttrpgs/misc/alignmentchart.png'
+]
+
 // code taken from a tutorial created by Professor Sarah Van Wart at Northwestern University
 
 const initImages = (image_vec, campaign) => {
@@ -82,4 +156,9 @@ const initGifs = (gif_vec, campaign) => {
 
 initImages(sky_high_images, "sky-high");
 initImages(dreamscape_images, "dreamscape");
+initImages(starless_images, "starless");
+initImages(world_tour_images, "world-tour");
+initImages(phoenix_images, "phoenix");
+initImages(children_images, "children");
+initImages(misc_images, "oneshots");
 initGifs(sky_high_animations, "sky-high");
