@@ -178,12 +178,12 @@ p>a {
     suffix: " ";
 }
 
-li {
+.keywords li {
     font-size: 1.15em;
     list-style: lightning;
 }
 
-li>em {
+.keywords>li>em {
     font-style: normal;
     font-weight: bold;
 }
@@ -204,5 +204,42 @@ p>em {
     /* color:#1471bd; */
     font-style: normal;
     font-weight: bold;
+}
+
+/*
+code adapted from a tutorial created by Professor Sarah Van Wart at Northwestern University
+*/
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0;
+    padding-left: 10px;
+    padding-top: 10px;
+    min-height: max-content;
+}
+
+.card {
+    height: 100px;
+    width: 100px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+}
+
+.image {
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+
+.image.active {
+    border: solid 5px black;
+}
+
+.image:hover {
+    opacity: 0.7;
 }
 
