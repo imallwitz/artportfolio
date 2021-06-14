@@ -4,49 +4,49 @@
 
 // maybe posts from recent dates or priority numbers fill into home ? or with certain ids? unsure
 const starless_images = [
-    'assets/ttrpgs/starless/rileyrefsheet1.png',
+    'assets/ttrpgs/starless/rileyrefsheet1.PNG',
     'assets/ttrpgs/starless/riley_drowning.jpg',
     'assets/ttrpgs/starless/riley_meditate.jpg',
-    'assets/ttrpgs/starless/rileyblood.png',
-    'assets/ttrpgs/starless/rileyleahclose.jpg',
-    'assets/ttrpgs/starless/rileyleahliedown.png',
-    'assets/ttrpgs/starless/rileyleahpride1.png',
+    'assets/ttrpgs/starless/rileyblood.PNG',
+    'assets/ttrpgs/starless/rileyleahclose.JPG',
+    'assets/ttrpgs/starless/rileyleahliedown.PNG',
+    'assets/ttrpgs/starless/rileyleahpride1.PNG',
     'assets/ttrpgs/starless/rileysword.jpg'
 ]
 
 const dreamscape_images = [
     'assets/ttrpgs/dreamscape/ashter.png',
-    'assets/ttrpgs/dreamscape/walkingthrustatic.jpg',
-    'assets/ttrpgs/dreamscape/asterbathingsuit.png',
-    'assets/ttrpgs/dreamscape/asheconcept.png',
-    'assets/ttrpgs/dreamscape/asterandieamy.png',
-    'assets/ttrpgs/dreamscape/asterandiefancy.png',
-    'assets/ttrpgs/dreamscape/asterandielittle.png',
-    'assets/ttrpgs/dreamscape/asterandieold.png',
-    'assets/ttrpgs/dreamscape/asterandietimeline.png',
-    'assets/ttrpgs/dreamscape/asterashechibialt.png',
-    'assets/ttrpgs/dreamscape/asterashecuddle.png',
+    'assets/ttrpgs/dreamscape/walkingthrustatic.JPG',
+    'assets/ttrpgs/dreamscape/asterbathingsuit.PNG',
+    'assets/ttrpgs/dreamscape/asheconcept.PNG',
+    'assets/ttrpgs/dreamscape/asterandieamy.PNG',
+    'assets/ttrpgs/dreamscape/asterandiefancy.PNG',
+    'assets/ttrpgs/dreamscape/asterandielittle.PNG',
+    'assets/ttrpgs/dreamscape/asterandieold.PNG',
+    'assets/ttrpgs/dreamscape/asterandietimeline.PNG',
+    'assets/ttrpgs/dreamscape/asterashechibialt.PNG',
+    'assets/ttrpgs/dreamscape/asterashecuddle.PNG',
     'assets/ttrpgs/dreamscape/asterashedoodles.jpg',
-    'assets/ttrpgs/dreamscape/asterashehaircut.png',
-    'assets/ttrpgs/dreamscape/asterashepiggyback.png',
-    'assets/ttrpgs/dreamscape/asterashesweaters.png',
-    'assets/ttrpgs/dreamscape/asterashewedding.png',
-    'assets/ttrpgs/dreamscape/asterashewinter.png',
-    'assets/ttrpgs/dreamscape/asterashexmas.png',
-    'assets/ttrpgs/dreamscape/asterbathingsuit.png',
-    'assets/ttrpgs/dreamscape/asterdad.jpg',
-    'assets/ttrpgs/dreamscape/asterdoodles.png',
-    'assets/ttrpgs/dreamscape/asterfashion.png',
-    'assets/ttrpgs/dreamscape/asteroutfits.png',
-    'assets/ttrpgs/dreamscape/chungfam.png',
-    'assets/ttrpgs/dreamscape/core3xmas.png',
-    'assets/ttrpgs/dreamscape/gang.jpg',
-    'assets/ttrpgs/dreamscape/gotyouflowers.jpg',
+    'assets/ttrpgs/dreamscape/asterashehaircut.PNG',
+    'assets/ttrpgs/dreamscape/asterashepiggyback.PNG',
+    'assets/ttrpgs/dreamscape/asterashesweaters.PNG',
+    'assets/ttrpgs/dreamscape/asterashewedding.PNG',
+    'assets/ttrpgs/dreamscape/asterashewinter.PNG',
+    'assets/ttrpgs/dreamscape/asterashexmas.PNG',
+    'assets/ttrpgs/dreamscape/asterbathingsuit.PNG',
+    'assets/ttrpgs/dreamscape/asterdad.JPG',
+    'assets/ttrpgs/dreamscape/asterdoodles.PNG',
+    'assets/ttrpgs/dreamscape/asterfashion.PNG',
+    'assets/ttrpgs/dreamscape/asteroutfits.PNG',
+    'assets/ttrpgs/dreamscape/chungfam.PNG',
+    'assets/ttrpgs/dreamscape/core3xmas.PNG',
+    'assets/ttrpgs/dreamscape/gang.JPG',
+    'assets/ttrpgs/dreamscape/gotyouflowers.JPG',
     'assets/ttrpgs/dreamscape/sleepyheads.png'
 ]
 
 const sky_high_images = [
-    'assets/ttrpgs/sky_high/refsheet_taika.png',
+    'assets/ttrpgs/sky_high/refsheet_taika.PNG',
     'assets/ttrpgs/sky_high/taikaBABY.png',
     'assets/ttrpgs/sky_high/taikasmallfinished.png',
     'assets/ttrpgs/sky_high/skitchin_large.jfif',
@@ -56,8 +56,8 @@ const sky_high_images = [
     'assets/ttrpgs/sky_high/fabian.png',
     'assets/ttrpgs/sky_high/taika_smiley.png',
     'assets/ttrpgs/sky_high/theyreherosandtheyreholdinghands.png',
-    'assets/ttrpgs/sky_high/NguyenFamilyBread.png',
-    'assets/ttrpgs/sky_high/NowThat.png',
+    'assets/ttrpgs/sky_high/NguyenFamilyBread.PNG',
+    'assets/ttrpgs/sky_high/NowThat.PNG',
     'assets/ttrpgs/sky_high/fabian.png',
     'assets/ttrpgs/sky_high/babyfabian.png',
     'assets/ttrpgs/sky_high/makingbread.png',
@@ -92,38 +92,38 @@ const sky_high_animations = [
 const world_tour_images = [
     'assets/ttrpgs/world_tour/cassgetstorest.png',
     'assets/ttrpgs/world_tour/casssuit.png',
-    'assets/ttrpgs/world_tour/casscane.jpg',
-    'assets/ttrpgs/world_tour/casscasketland.png',
-    'assets/ttrpgs/world_tour/cassclairedungeonworld.png',
-    'assets/ttrpgs/world_tour/cassdungeonworld.png'
+    'assets/ttrpgs/world_tour/casscane.JPG',
+    'assets/ttrpgs/world_tour/casscasketland.PNG',
+    'assets/ttrpgs/world_tour/cassclairedungeonworld.PNG',
+    'assets/ttrpgs/world_tour/cassdungeonworld.PNG'
 ]
 
 const phoenix_images = [
     'assets/ttrpgs/phoenix/figspotify.jpg',
     'assets/ttrpgs/phoenix/figsheet.jpg',
-    'assets/ttrpgs/phoenix/figdresses.png',
-    'assets/ttrpgs/phoenix/figfamily.png'
+    'assets/ttrpgs/phoenix/figdresses.PNG',
+    'assets/ttrpgs/phoenix/figfamily.PNG'
 ]
 
 const children_images = [
-    'assets/ttrpgs/children/briardesign.png',
-    'assets/ttrpgs/children/briarfire.jpg',
-    'assets/ttrpgs/children/briarjar.png',
-    'assets/ttrpgs/children/briarconcept.png'
+    'assets/ttrpgs/children/briardesign.PNG',
+    'assets/ttrpgs/children/briarfire.JPG',
+    'assets/ttrpgs/children/briarjar.PNG',
+    'assets/ttrpgs/children/briarconcept.PNG'
 ]
 
 const misc_images = [
-    'assets/ttrpgs/misc/pcs.png',
-    'assets/ttrpgs/misc/masksteamdesigns.png',
-    'assets/ttrpgs/misc/masksteamflowers.png',
-    'assets/ttrpgs/misc/masksteamheads.png',
-    'assets/ttrpgs/misc/masksteamconcept.png',
-    'assets/ttrpgs/misc/jaimehannah.png',
-    'assets/ttrpgs/misc/jaimesheet.png',
-    'assets/ttrpgs/misc/cloudharborteens.png',
-    'assets/ttrpgs/misc/grace.png',
-    'assets/ttrpgs/misc/nikoconcept.png',
-    'assets/ttrpgs/misc/alignmentchart.png'
+    'assets/ttrpgs/misc/pcs.PNG',
+    'assets/ttrpgs/misc/masksteamdesigns.PNG',
+    'assets/ttrpgs/misc/masksteamflowers.PNG',
+    'assets/ttrpgs/misc/masksteamheads.PNG',
+    'assets/ttrpgs/misc/masksteamconcept.PNG',
+    'assets/ttrpgs/misc/jaimehannah.PNG',
+    'assets/ttrpgs/misc/jaimesheet.PNG',
+    'assets/ttrpgs/misc/cloudharborteens.PNG',
+    'assets/ttrpgs/misc/grace.PNG',
+    'assets/ttrpgs/misc/nikoconcept.PNG',
+    'assets/ttrpgs/misc/alignmentchart.PNG'
 ]
 
 // code taken from a tutorial created by Professor Sarah Van Wart at Northwestern University
