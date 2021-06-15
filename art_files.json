@@ -1,0 +1,266 @@
+{
+    "starless":[
+        {
+            "name": "Riley ref sheet",
+            "description": "a reference sheet for Riley",
+            "path": "assets/ttrpgs/starless/rileyrefsheet1.PNG",
+            "date": 20200600,
+            "priority": 1
+        },
+        {
+            "name": "Riley drowning",
+            "description": "a digital painting of Riley experiencing a nightmare of drowning",
+            "path": "assets/ttrpgs/starless/riley_drowning.jpg",
+            "date": 20200100,
+            "priority": 0
+        },
+        {
+            "name": "riley meditating",
+            "description": "a drawing of Riley learning to use magic, which they channel by meditating to music",
+            "path": "assets/ttrpgs/starless/riley_meditate.jpg",
+            "date": 20191200,
+            "priority": 0
+        },
+        {
+            "name": "Riley after battle",
+            "description": "a digital drawing of Riley a little beat up after fighting a monster",
+            "path": "assets/ttrpgs/starless/rileyblood.PNG",
+            "date": 20200718,
+            "priority":  0
+        },
+        {
+            "name": "Riley and Leah",
+            "description": "a close crop of Riley and Leah laying down together",
+            "path": "assets/ttrpgs/starless/rileyleahclose.JPG",
+            "date": 20200714,
+            "priority": 0
+        },
+        {
+            "name": "Riley and Leah",
+            "description": "Riley and Leah laying down together",
+            "path": "assets/ttrpgs/starless/rileyleahliedown.PNG",
+            "date": 20200714,
+            "priority": 0
+        },
+        {
+            "name": "Riley and Leah at Pride 2020",
+            "description": "a digital drawing of Riley and Leah at Pride, Leah has a lesbian flag and a pride flag tank top. Riley has a nonbinary bandana.",
+            "path": "assets/ttrpgs/starless/rileyleahpride1.PNG",
+            "date": 20200702,
+            "priority": 0
+        },
+        {
+            "name": "Riley gets a sword!",
+            "description": "a doodle i did in my session notes when Riley first got their sword",
+            "path": "assets/ttrpgs/starless/rileysword.jpg",
+            "date": 20191200,
+            "priority": 0
+        }
+    ],
+    "dreamscape":[
+        {
+            "name": "an iconic duo",
+            "description": "Aster and Ashe hugging, really displaying how much smaller Ashe is",
+            "path": "assets/ttrpgs/dreamscape/ashter.png",
+            "date": 20201017,
+            "priority": 0 
+        },
+        {
+            "name": "walkthing through static",
+            "description": "an early painting of Aster walking through the dreamscape",
+            "path": "assets/ttrpgs/dreamscape/walkingthrustatic.JPG",
+            "date": 20200710,
+            "priority": 0
+        },
+        {
+            "name": "Aster at the beach house",
+            "description": "a digital drawing of Aster in their bathing suit, enjoying the beginning of summer vacation before things go horribly wrong",
+            "path": "assets/ttrpgs/dreamscape/asterbathingsuit.PNG",
+            "date": 20200821,
+            "priority": 0
+        },
+        {
+            "name": "Ashe concept art",
+            "description": "some initial drawings of Ashe to get a better feel for drawing them",
+            "path": "assets/ttrpgs/dreamscape/asheconcept.PNG",
+            "date": 20200928,
+            "priority": 0
+        },
+        {
+            "name": "twins?",
+            "description": "a quick sketch of a moment in one of the sessions where Amy is pulled into the dreamscape and meets Andie for the first time",
+            "path": "assets/ttrpgs/dreamscape/asterandieamy.PNG",
+            "date": 20200800,
+            "priority": 0
+        },
+        {
+            "name": "fancy twins",
+            "description": "Aster and Andie dressed up for a formal event, looking sharp as ever",
+            "path": "assets/ttrpgs/dreamscape/asterandiefancy.PNG",
+            "date": 20210104,
+            "priority": 0
+        },
+        {
+            "name": "San Diego summertime",
+            "description": "a scene from childhood, young Aster and Andie running with a kite",
+            "path": "assets/ttrpgs/dreamscape/asterandielittle.PNG",
+            "date": 20201015,
+            "priority": 0
+        },
+        {
+            "name": "separated, but close",
+            "description": "an older drawing of Aster and Andie reaching towards portals in their respective dimensions",
+            "path": "assets/ttrpgs/dreamscape/asterandieold.PNG",
+            "date": 20200800,
+            "priority": 0
+        },
+        {
+            "name": "twins through time",
+            "description": "three drawings of Aster and Andie as they grew, first as kids, then as teens, right before Andie falls through the portal, then as adults where they are now in the story",
+            "path": "assets/ttrpgs/dreamscape/asterandietimeline.PNG",
+            "date": 20210124,
+            "priority": 0
+        },
+        {
+            "name": "Aster and Ashe in a different style",
+            "description": "a style experiment with Aster and Ashe",
+            "path": "assets/ttrpgs/dreamscape/asterashechibialt.PNG",
+            "date": 20200818,
+            "priority": 0
+        },
+        {
+            "name": "through the nightmares",
+            "description": "Ashe comforting Aster after one of their terrible nightmares",
+            "path": "assets/ttrpgs/dreamscape/asterashecuddle.PNG",
+            "date": 20201028,
+            "priority": 0
+        },
+        {
+            "name": "Aster & Ashe doodles",
+            "description": "a sketch page of Aster and Ashe moments. visiting the local indie bookstore, reading with their cats, and trying on each other's clothes",
+            "path": "assets/ttrpgs/dreamscape/asterashedoodles.jpg",
+            "date": 20201206,
+            "priority": 0
+        },
+        {
+            "name": "Ashe needs a haircut",
+            "description": "a soft moment in the daily lives of Aster and Ashe, where Aster shaves the back of Ashe's head while they sit in the bathtub",
+            "path": "assets/ttrpgs/dreamscape/asterashehaircut.PNG",
+            "date": 20200915,
+            "priority": 0
+        },
+        {
+            "name": "Aster is too tall",
+            "description": "Ashe tries (and succeeds, mostly) in giving Aster a piggy back ride",
+            "path": "assets/ttrpgs/dreamscape/asterashepiggyback.PNG",
+            "date": 20201021,
+            "priority": 0
+        },
+        {
+            "name": "matching sweaters",
+            "description": "a cuddly Aster and Ashe wearing matching sweaters in their respective colors",
+            "path": "assets/ttrpgs/dreamscape/asterashesweaters.PNG",
+            "date": 20200912,
+            "priority": 0
+        },
+        {
+            "name": "wedding day",
+            "description": "inspired by a picture from Molly Ostertag and Noelle Stevenson's wedding. Ashe feeding Aster some frosting from their wedding cake on their (eventual) wedding day. Aster has flowers in their hair in the colors of some of the most people in their life (and also pansexual pride colors!). Ashe has a cape and that's beautiful.",
+            "path": "assets/ttrpgs/dreamscape/asterashewedding.PNG",
+            "date": 20200924,
+            "priority": 0
+        },
+        {
+            "name": "wintertime adventures",
+            "description": "Aster and Ashe all bundled up for the cold Chicago winter. inspired by a scene from the Happiest Season trailer. Aster is wearing the handmade scarf that Ashe gave them for their birthday",
+            "path": "assets/ttrpgs/dreamscape/asterashewinter.PNG",
+            "date": 20201209,
+            "priority": 0
+        },
+        {
+            "name": "christmas card",
+            "description": "a drawing of Aster and Ashe's Christmas card from 2020. here's the flavor text: 'Merry Christmas from Aster, Ashe, Kepler (small and grey), and Carl (large and orange)! It’s been a long year. Ashe graduated, Aster survived lots of TA-ing, and both Kepler and Carl were rescued. There was lots of late night studying and plenty of coffee to go around. Despite some rough patches and a few injuries, we’re looking forward to a happy, healthy 2021!'",
+            "path": "assets/ttrpgs/dreamscape/asterashexmas.PNG",
+            "date": 20201228,
+            "priority": 0
+        },
+        {
+            "name": "Aster is a dad",
+            "description": "inspired by a joke that Amy has accidentally called Aster dad. Aster in cargo shorts, high socks, and wearing earbuds. Ashe is terribly embarrassed by their idiot.",
+            "path": "assets/ttrpgs/dreamscape/asterdad.JPG",
+            "date": 20210110,
+            "priority": 0
+        },
+        {
+            "name": "sketch page",
+            "description": "a sketch page, featuring a tender moment of Aster and Ashe coexisting on their bed before going to sleep for the night, Ashe bestowing a forehead kiss to Aster, and Andie and Aster posing for a birthday photo in the dreamscape. this was their first birthday together in over a decade, but it was bittersweet, since Andie couldn't come back to the real world with them.",
+            "path": "assets/ttrpgs/dreamscape/asterdoodles.PNG",
+            "date": 20201013,
+            "priority": 0
+        },
+        {
+            "name": "Aster fashion show",
+            "description": "an early drawing of Aster in some nice fashion from Pinterest, before i decided they have very little sense of fashion and wear the same shirt every day.",
+            "path": "assets/ttrpgs/dreamscape/asterfashion.PNG",
+            "date": 20200823,
+            "priority": 0
+        },
+        {
+            "name": "Aster outfit reel",
+            "description": "Aster in a couple of outfits/variations of outfits. never quite finished this, but the idea is there",
+            "path": "assets/ttrpgs/dreamscape/asteroutfits.PNG",
+            "date": 20201000,
+            "priority": 0
+        },
+        {
+            "name": "the Chung family",
+            "description": "Aster, Andie, and their mom and dad. a family photo after Andie is reunited with her parents.",
+            "path": "assets/ttrpgs/dreamscape/chungfam.PNG",
+            "date": 20201226,
+            "priority": 0
+        },
+        {
+            "name": "Aster, Amy, and Alan on Christmas",
+            "description": "a picture of Aster, Amy, and Alan celebrating Christmas together",
+            "path": "assets/ttrpgs/dreamscape/core3xmas.PNG",
+            "date": 20201227,
+            "priority": 0
+        },
+        {
+            "name": "the gang's all here",
+            "description": "well, not quite. the core 6 of raid party. team bonk'n'conk, as we call them. from L to R, Karina, Alan, Amy, Aster, Ashe, and Gary.",
+            "path": "assets/ttrpgs/dreamscape/gang.JPG",
+            "date": 20201221,
+            "priority": 0
+        },
+        {
+            "name": "got you flowers (with words left unsaid)",
+            "description": "an emotional piece, placed outside of canon, where Aster has upset Ashe and returns after a fight to give them flowers and apologize. this was a super experimental piece and i'm really happy with how it turned out",
+            "path": "assets/ttrpgs/dreamscape/gotyouflowers.JPG",
+            "date": 20200920,
+            "priority": 0
+        },
+        {
+            "name": "sleepy heads",
+            "description": "Aster and Ashe, fallen asleep on the floor during a evening hangout with Andie and Rachel. they do this more than they should.",
+            "path": "assets/ttrpgs/dreamscape/sleepyheads.png",
+            "date": 20210121,
+            "priority": 0
+        }
+    ],
+    "sky_high": [
+
+    ],
+    "world_tour": [
+
+    ],
+    "phoenix": [
+
+    ],
+    "children": [
+
+    ],
+    "misc": [
+
+    ]
+}
