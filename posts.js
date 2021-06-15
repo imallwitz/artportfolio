@@ -194,6 +194,7 @@ $(document).ready(function() {
     .then(data => {
         artdata = data;
         showImages(artdata, "starless");
+        showImages(artdata, "dreamscape");
         attachEventHandlers();
         });
 })
@@ -206,7 +207,6 @@ const attachEventHandlers = () => {
 
 
 initImages(sky_high_images, "sky-high");
-initImages(dreamscape_images, "dreamscape");
 // initImages(starless_images, "starless");
 initImages(world_tour_images, "world-tour");
 initImages(phoenix_images, "phoenix");
