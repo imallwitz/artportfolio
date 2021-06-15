@@ -243,3 +243,37 @@ code adapted from a tutorial created by Professor Sarah Van Wart at Northwestern
     opacity: 0.7;
 }
 
+.featured {
+    display: grid;
+    grid-template: 
+    "a b"
+    "a c";
+    grid-template-columns: 60% 40%;
+    grid-template-rows: 30% 70%;
+    text-align: center;
+    border: solid 5px orange;
+    max-height: 500px;
+}
+
+.featuredimage {
+    grid-area: a;
+    max-width: 100%;
+    max-height: 100%;
+    margin: auto;
+}
+
+.title {
+    grid-area: b;
+    font-family: Comfortaa, sans-serif;
+    font-size: 1.75em;
+    margin: auto;
+    margin-top: 10%;
+}
+
+.description {
+    grid-area: c;
+    font-weight: normal;
+    font-style: italic;
+    margin: 5% 5%;
+    font-size: 1.25em;
+}

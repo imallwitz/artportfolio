@@ -33,7 +33,6 @@ const dreamscape_images = [
     'assets/ttrpgs/dreamscape/asterashewedding.PNG',
     'assets/ttrpgs/dreamscape/asterashewinter.PNG',
     'assets/ttrpgs/dreamscape/asterashexmas.PNG',
-    'assets/ttrpgs/dreamscape/asterbathingsuit.PNG',
     'assets/ttrpgs/dreamscape/asterdad.JPG',
     'assets/ttrpgs/dreamscape/asterdoodles.PNG',
     'assets/ttrpgs/dreamscape/asterfashion.PNG',
@@ -126,6 +125,8 @@ const misc_images = [
     'assets/ttrpgs/misc/alignmentchart.PNG'
 ]
 
+var artdata = [];
+
 // code taken from a tutorial created by Professor Sarah Van Wart at Northwestern University
 
 const initImages = (image_vec, campaign) => {
@@ -154,9 +155,59 @@ const initGifs = (gif_vec, campaign) => {
     }
 }
 
+const setFeatured = (ev) => {
+    let elem = ev.currentTarget;
+    let campaign = elem.parentNode.parentNode.parentNode.id;
+    let index = parseInt(elem.dataset.index);
+    let imagedata = artdata[campaign][index];
+    showFeatured(imagedata, campaign);
+}
+
+const showFeatured = (imagedata, campaign) => {
+    document.getElementById(campaign).querySelector('.featured').innerHTML = `
+            <img class="featuredimage"
+                src='${imagedata.path}'></img>
+            <h3 class="title">${imagedata.name}</h3>
+            <h4 class="description">${imagedata.description}</h4>`;
+}
+
+const showImages = (data, campaign) => {
+    let image_vec = data[campaign];
+    let idx = 0;
+    showFeatured(image_vec[0], campaign);
+    for (const image of image_vec) {
+        document.getElementById(campaign).querySelector('.cards').innerHTML += `
+            <div class="card">
+                <div class="image" 
+                    style="background-image:url('${image.path}')"
+                    data-index=${idx}"></div>
+            </div>`;
+        idx += 1;
+    }
+}
+
+$(document).ready(function() {
+    fetch("art_files.json")
+    .then(response => {
+        return response.json();
+    })
+    .then(data => {
+        artdata = data;
+        showImages(artdata, "starless");
+        attachEventHandlers();
+        });
+})
+
+const attachEventHandlers = () => {
+    for (const elem of document.querySelectorAll('.image')) {
+        elem.onclick = setFeatured;
+    }
+};
+
+
 initImages(sky_high_images, "sky-high");
 initImages(dreamscape_images, "dreamscape");
-initImages(starless_images, "starless");
+// initImages(starless_images, "starless");
 initImages(world_tour_images, "world-tour");
 initImages(phoenix_images, "phoenix");
 initImages(children_images, "children");
