@@ -103,7 +103,7 @@ $(document).ready(function() {
         artdata = data;
         showImages(artdata, "starless");
         showImages(artdata, "dreamscape");
-        showImages(artdata, "sky-high")
+        showImages(artdata, "sky-high");
         attachEventHandlers();
         });
 })
