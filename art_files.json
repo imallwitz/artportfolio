@@ -509,16 +509,187 @@
             "priority": 0
         }
     ],
-    "world_tour": [
-
+    "world-tour": [
+        {
+            "name": "Cass gets to rest",
+            "description": "a piece i did right after this campaign ended. Cass had a long and tenuous adventure, but she finally got to return home to her original dimension and take a nice long rest with her wife, Claire.",
+            "path": "assets/ttrpgs/world_tour/cassgetstorest.png",
+            "date": 20210121,
+            "priority": 0
+        },
+        {
+            "name": "Cass at the ball",
+            "description": "in our Urban Shadows session, the gang got invited to a ball, so i got the chance to draw Cass dressed up all fancy. i decided to go for a burgundy suit for a subtle standout",
+            "path": "assets/ttrpgs/world_tour/casssuit.png",
+            "date": 20201220,
+            "priority": 0
+        },
+        {
+            "name": "Cass Dungeon World original concept",
+            "description": "an early sketch of Cass in a fantasy setting before character creation. i really liked the idea of corsets and Isabella from Dragon Age-inspired outfits.",
+            "path": "assets/ttrpgs/world_tour/casscane.JPG",
+            "date": 20201110,
+            "priority": 0
+        },
+        {
+            "name": "Cass in Casket Land",
+            "description": "some art depicting Cass from our Casket Land session. i went for grungy lighting and lots of dirt and soot.",
+            "path": "assets/ttrpgs/world_tour/casscasketland.PNG",
+            "date": 20201024,
+            "priority": 0
+        },
+        {
+            "name": "Cass and Claire",
+            "description": "Cass and Claire in the Dungeon World setting. Cass is a druid and Claire is a powerful mage. they live together in the woods and it's great.",
+            "path": "assets/ttrpgs/world_tour/cassclairedungeonworld.PNG",
+            "date": 20201114,
+            "priority": 0
+        },
+        {
+            "name": "Dungeon World Cass",
+            "description": "some concept art for Cass's Dungeon World design",
+            "path": "assets/ttrpgs/world_tour/cassdungeonworld.PNG",
+            "date": 20201113,
+            "priority": 0
+        }
     ],
     "phoenix": [
-
+        {
+            "name": "Fig closeup", 
+            "description": "a drawing of Fig! also used as the picture for her Spotify playlist that i made.",
+            "path": "assets/ttrpgs/phoenix/figspotify.jpg",
+            "date": 20210506,
+            "priority": 1
+        },
+        {
+            "name": "Fig sketches", 
+            "description": "a sheet of Fig sketches, trying to get a feel for her character and what her outfits looked like",
+            "path": "assets/ttrpgs/phoenix/figsheet.jpg",
+            "date": 20210417,
+            "priority": 0
+        },
+        {
+            "name": "dress studies with Fig", 
+            "description": "one day, i got a strong urge to draw Fig in a bunch of dresses. i had a dear friend send me a bunch of dress references and i did some studies with Fig. i love her cottagecore/folksy vibe.",
+            "path": "assets/ttrpgs/phoenix/figdresses.PNG",
+            "date": 20210601,
+            "priority": 0
+        },
+        {
+            "name": "Fig's family", 
+            "description": "Fig and her moms. i wanted to draw Fig's moms and Fig a bit younger. i'm still not 100% on these designs for her moms, but i just wanted to get the ideas out there.",
+            "path": "assets/ttrpgs/phoenix/figfamily.PNG",
+            "date": 20210427,
+            "priority": 0
+        }
     ],
     "children": [
-
+        {
+            "name": "Briar concept art", 
+            "description": "a more solidified design for Briar, featuring their striped shirt, patchwork jeans, and big coat.",
+            "path": "assets/ttrpgs/children/briardesign.PNG",
+            "date": 20210130,
+            "priority": 1
+        },
+        {
+            "name": "the burning of the Wells Fargo", 
+            "description": "in order to prevent their town from being consumed by the Lord of Dirt, Briar was prophecized to burn down a Wells Fargo. ever the pyromaniac, they were excited, packing a duffel bag full of the iconic mason jars, this time full of gasoline. they chucked the jars towards the obnoxious glass building and lit them on fire with their magic as they flew. a god smiled upon them that day.",
+            "path": "assets/ttrpgs/children/briarfire.JPG",
+            "date": 20210605,
+            "priority": 0
+        },
+        {
+            "name": "mason jar!", 
+            "description": "Briar holding one of their iconic mason jars. they carried several of these everywhere, collecting various debris, like worms pretending to be people, burnt flesh, and roots growing from toes.",
+            "path": "assets/ttrpgs/children/briarjar.PNG",
+            "date": 20210212,
+            "priority": 0
+        },
+        {
+            "name": "original Briar concept art", 
+            "description": "Briar's earliest design, before they were a character concept for Monster of the Week.",
+            "path": "assets/ttrpgs/children/briarconcept.PNG",
+            "date": 20210108,
+            "priority": 0
+        }
     ],
     "misc": [
-
+        {
+            "name": "Cass, Taika, Aster, Riley", 
+            "description": "a collection of all my long-term PCs at the time this was drawn. i wanted to draw them all together, so i did.",
+            "path": "assets/ttrpgs/misc/pcs.PNG",
+            "date": 20201129,
+            "priority": 0
+        },
+        {
+            "name": "Masks team designs", 
+            "description": "this is a piece i'm Extremely fond of. i love it dearly. i designed a bunch of Masks characters a while back when my playgroup all built our ideal Masks teams (by playbook). i then built a more complete character concept for one of them, to theoretically play in a future campaign. i had a lot of fun designing all these characters, and i really like their designs and dynamics.",
+            "path": "assets/ttrpgs/misc/masksteamdesigns.PNG",
+            "date": 20210223,
+            "priority": 0
+        },
+        {
+            "name": "the girls with flowers", 
+            "description": "the Masks team with flowers in their hair, given to them by Reiko, a member of the team with plant powers",
+            "path": "assets/ttrpgs/misc/masksteamflowers.PNG",
+            "date": 20210306,
+            "priority": 0
+        },
+        {
+            "name": "Masks team concept 2", 
+            "description": "closeups of the Masks team concept art",
+            "path": "assets/ttrpgs/misc/masksteamheads.PNG",
+            "date": 20200915,
+            "priority": 0
+        },
+        {
+            "name": "Masks team concept 1", 
+            "description": "some character concepts for an ideal Masks team, where i created all the characters",
+            "path": "assets/ttrpgs/misc/masksteamconcept.PNG",
+            "date": 20200915,
+            "priority": 0
+        },
+        {
+            "name": "Jaime and Hannah", 
+            "description": "some art for Jaime and Hannah. Jaime is a theoretical future character for a possible future campaign, and Hannah is her girlfriend. they're great.",
+            "path": "assets/ttrpgs/misc/jaimehannah.PNG",
+            "date": 20201206,
+            "priority": 0
+        },
+        {
+            "name": "Jaime concept sheet", 
+            "description": "some concept art for Jaime, trying to nail down their design and really make their colors pop.",
+            "path": "assets/ttrpgs/misc/jaimesheet.PNG",
+            "date": 20201011,
+            "priority": 0
+        },
+        {
+            "name": "Cloud Harbor teens", 
+            "description": "some of the NPCs i designed for my upcoming Monster of the Week campaign that i'll be running. i'm really excited about this cast of characters and i wanted to bring them to life a bit by drawing them.",
+            "path": "assets/ttrpgs/misc/cloudharborteens.PNG",
+            "date": 20210527,
+            "priority": 0
+        },
+        {
+            "name": "Grace concept art", 
+            "description": "some concept art for one of my oneshot characters, Grace. she was a Chosen in the Monster of the Week system.",
+            "path": "assets/ttrpgs/misc/grace.PNG",
+            "date": 20200808,
+            "priority": 0
+        },
+        {
+            "name": "Niko concept art", 
+            "description": "concept art for Niko, a character i made for an Urban Shadows campaign that fell apart. i still really like his design, but sadly we couldn't pull the playgroup together.",
+            "path": "assets/ttrpgs/misc/nikoconcept.PNG",
+            "date": 20200301,
+            "priority": 0
+        },
+        {
+            "name": "PC alignment chart", 
+            "description": "my playgroup decided to make alignment charts for our PCs, the axes being our most commonly occurring (and contrasting) traits. this one includes all the current, past, and future PCs i had created at the time, excluding oneshots.",
+            "path": "assets/ttrpgs/misc/alignmentchart.PNG",
+            "date": 20210220,
+            "priority": 0
+        }
     ]
 }
