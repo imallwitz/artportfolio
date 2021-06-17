@@ -63,7 +63,7 @@
             "description": "Aster and Ashe hugging, really displaying how much smaller Ashe is",
             "path": "assets/ttrpgs/dreamscape/ashter.png",
             "date": 20201017,
-            "priority": 0 
+            "priority": 1
         },
         {
             "name": "walkthing through static",
@@ -248,8 +248,266 @@
             "priority": 0
         }
     ],
-    "sky_high": [
-
+    "sky-high": [
+        {
+            "name": "Taika ref sheet",
+            "description": "a reference sheet for Taika, created in preparation for Art Fight 2021",
+            "path": "assets/ttrpgs/sky_high/refsheet_taika.PNG",
+            "date": 20210604,
+            "priority": 1
+        },
+        {
+            "name": "Taika is a bit of a crybaby",
+            "description": "high school is hard, and then adding training to be a superhero and your dad being a supervillain on top of that? that's a lot, it makes sense to cry",
+            "path": "assets/ttrpgs/sky_high/taikaBABY.png",
+            "date": 20200824,
+            "priority": 0
+        },
+        {
+            "name": "Taika is feeling very small",
+            "description": "a drawing of a moment that happened in session. Taika's team had just been nearly beaten, and she was the last one standing, or, uh falling from a skyscraper. she was caught by Tess, and then brought back to the top of the building with Tess, Fabian, and the three adult Knights staring at her disapprovingly.",
+            "path": "assets/ttrpgs/sky_high/taikasmallfinished.png",
+            "date": 20210102,
+            "priority": 0
+        },
+        {
+            "name": "skitchin'",
+            "description": "Taika is a skateboarder, so she needs the threads to look the part.",
+            "path": "assets/ttrpgs/sky_high/skitchin_large.jfif",
+            "date": 20200823,
+            "priority": 0
+        },
+        {
+            "name": "Nguyen family photo",
+            "description": "a family photo with Fabian, Taika, and Tess. they look almost like a normal family! note: everyone is wearing at least a bit of red as per Fabian photo requirements",
+            "path": "assets/ttrpgs/sky_high/nguyenfamilyphoto.png",
+            "date": 20210123,
+            "priority": 0
+        },
+        {
+            "name": "it's a good thing you're cute",
+            "description": "Taika is a sweater stealer, even before she and Rhea get together, but it's more okay once Rhea can say this back.",
+            "path": "assets/ttrpgs/sky_high/itsagoodthingyourecute.png",
+            "date": 20210122,
+            "priority": 0
+        },
+        {
+            "name": "uwu",
+            "description": "i found a cool pose reference on twitter, and these fools are adorable and romantic. they're either about to kiss, or Taika is gonna fall off the table, your choice.",
+            "path": "assets/ttrpgs/sky_high/taikarhea_table.png",
+            "date": 20210225,
+            "priority": 0
+        },
+        {
+            "name": "Fabian ref sheet",
+            "description": "a ref sheet for Fabian. i was trying to get a better feel for them, since my design for them kept changing. i also wanted to get their villain costume solidified, but i'm still not so sure about this design. they need to look more cool.",
+            "path": "assets/ttrpgs/sky_high/fabian.png",
+            "date": 20210126,
+            "priority": 0 
+        },
+        {
+            "name": "Taika is adorable",
+            "description": "a smiley Taika to bring joy to your day. i think she just won a fight.",
+            "path": "assets/ttrpgs/sky_high/taika_smiley.png",
+            "date": 20210414,
+            "priority": 0
+        },
+        {
+            "name": "they're heroes and they're holding hands",
+            "description": "i mean, look at them, they're doing so well. this was inspired by me wanting to solidify both Taika's second costume and Rhea's costume. i thought it would be nice to draw them together, so i did. Taika is probably a little too tall here, she should be a solid half foot shorter than Rhea.",
+            "path": "assets/ttrpgs/sky_high/theyreherosandtheyreholdinghands.png",
+            "date": 20210201,
+            "priority": 0
+        },
+        {
+            "name": "Nguyen Family Bread",
+            "description": "an old family photo of the Nguyens at the farmer's market. these are Fabian, David, and Tess's old designs, but i still like the piece a lot. good memories. Fabian keeps this one framed on their desk.",
+            "path": "assets/ttrpgs/sky_high/NguyenFamilyBread.PNG",
+            "date": 20200902,
+            "priority": 0
+        },
+        {
+            "name": "sparring",
+            "description": "an early sketch i did when i we decided that Rhea and Taika would be rivals to lovers and that they'd spar together. the tension is PRESENT and i love it.",
+            "path": "assets/ttrpgs/sky_high/NowThat.PNG",
+            "date": 20200900,
+            "priority": 0
+        },
+        {
+            "name": "young Fabian",
+            "description": "an early sketch of Fabian during their early hero years with Fareeha, David, and Dave. i wanted to portray how far they'd come since being a low-power mage and a brand new hero. the design doesn't hold anymore, but the energy is still there",
+            "path": "assets/ttrpgs/sky_high/babyfabian.png",
+            "date": 20201000,
+            "priority": 0
+        },
+        {
+            "name": "making bread",
+            "description": "'we're doing a good job, right?' 'yeah, we're doing a good job'. a look into Taika's childhood, when David was still there and when her parents were teaching her and Tess how to make bread. a happy moment for the Ngyuens.",
+            "path": "assets/ttrpgs/sky_high/makingbread.png",
+            "date": 20201003,
+            "priority": 0
+        },
+        {
+            "name": "old team teens (1987)",
+            "description": "Fabian and David's team right around when they started getting big. Fareeha still has several inches to grow, and they all ned several costume upgrades. this is an old design for David, but i still think it's cute. you can see how self-determined Fabian is here, already a bit full of themselves.",
+            "path": "assets/ttrpgs/sky_high/oldteamteens.png",
+            "date": 20201011,
+            "priority": 0
+        },
+        {
+            "name": "old team young adults (2004)",
+            "description": "'A Team at their Peak? Some of Halcyon’s most beloved heroes reflect on over 15 years of working together and what the future holds.' a look at the old team again, but now as established heroes. this is right before David and Fabian have Taika. this is still an old David design, but I appreciate it. i think this was the first appearance of Fabian's ponytail and i'm still glad i made that decision.",
+            "path": "assets/ttrpgs/sky_high/oldteamadults.png",
+            "date": 20201114,
+            "priority": 0
+        },
+        {
+            "name": "dancing in the kitchen",
+            "description": "a comic i made a while back, during an angsty part of the campaign. a sort of homage to how much parents still love their kids even when they might disagree. the Nguyens get to love and forgive each other, and have fun together. that's what family is all about.",
+            "path": "assets/ttrpgs/sky_high/taikadance.png",
+            "date": 20201015,
+            "priority": 0
+        },
+        {
+            "name": "Taika early design",
+            "description": "some very very early concept art for Taika, even before i changed her playbook to the Scion. i still think it's pretty cool, but it definitely has a different energy than Taika has now.",
+            "path": "assets/ttrpgs/sky_high/taikaearlyconcept.png",
+            "date": 20200700,
+            "priority": 0
+        },
+        {
+            "name": "Taika concept art",
+            "description": "some concept art for Taika, trying to figure out what her magic and costume looked like. this was before i decided on circular runes for her magic, and decided not to give her a staff.",
+            "path": "assets/ttrpgs/sky_high/taikaearlymagic.png",
+            "date": 20200800,
+            "priority": 0
+        },
+        {
+            "name": "more Taika concept art",
+            "description": "some more concept art for Taika, before i decided i wasn't going to give her a staff, but after deciding that she'd use purple magic to hide her relation to Runesmith.",
+            "path": "assets/ttrpgs/sky_high/taikaearlypurple.png",
+            "date": 20200801,
+            "priority": 0
+        },
+        {
+            "name": "Knight Taika",
+            "description": "a sketch of Taika as a Knight. there's a running joke that all of the team members will eventually have Knight forms (which ended up being true). i drew some art to decide what Taika's would look like. I think the halberd is very important.",
+            "path": "assets/ttrpgs/sky_high/taikaknight.png",
+            "date": 20210302,
+            "priority": 0
+        },
+        {
+            "name": "Taika and Rhea lookin' cute",
+            "description": "the title says it all. these are two adorable kiddos. really enjoyed coloring this one, it was a lot of fun.",
+            "path": "assets/ttrpgs/sky_high/taikarheaoutfits.png",
+            "date": 20201217,
+            "priority": 0
+        },
+        {
+            "name": "Taika gets to be happy",
+            "description": "a sketch page from an angsty time in the campaign. i wanted to draw a bunch of scenes where Taika got to be happy. spending time with her parent, hanging out with Rhea, and her team, messing around with Tess. just some fun snapshots.",
+            "path": "assets/ttrpgs/sky_high/taikaspread.png",
+            "date": 20210218,
+            "priority": 0
+        },
+        {
+            "name": "Halalcyon",
+            "description": "a drawing of the team all getting food together at their favorite restaurant, Halalcyon.",
+            "path": "assets/ttrpgs/sky_high/team.png",
+            "date": 20200900,
+            "priority": 0
+        },
+        {
+            "name": "Tess early concept",
+            "description": "some early concept art for Tess. now i'm more convinced that Tess has yet to get a costume (or a hero name) and just wears a sweatshirt and a mask, but this was fun to draw.",
+            "path": "assets/ttrpgs/sky_high/tessearlyconcept.png",
+            "date": 20200800,
+            "priority": 0
+        },
+        {
+            "name": "Tess is a simp",
+            "description": "Tess and Ana, planning their next villainous activity. or, well, Ana is planning and Tess is.... simping. they're cute.",
+            "path": "assets/ttrpgs/sky_high/tessisasimp.png",
+            "date": 20201000,
+            "priority": 0
+        },
+        {
+            "name": "a much-needed hug",
+            "description": "from a session in which Tess tries to drive an unfamiliar vehicle and crashes it. Tess commits to never driving again and Taika thanks them for it.",
+            "path": "assets/ttrpgs/sky_high/tesstaikahug.png",
+            "date": 20201000,
+            "priority": 0
+        },
+        {
+            "name": "Taika outfits",
+            "description": "a bunch of outfits for Taika. her normal day-to-day outfit, an alternate street clothes option, a slightly nicer outfit, her gym clothes, a dress for prom, a button-up/skirt combo for prom, and her original costume.",
+            "path": "assets/ttrpgs/sky_high/taikaoutfits.png",
+            "date": 20201100,
+            "priority": 0
+        },
+        {
+            "name": "rivals",
+            "description": "some early art of Taika and Rhea as rivals. there was supposed to be a lot more time spent with them being rivals originally, but neither of them wanted to be mean to their crush.",
+            "path": "assets/ttrpgs/sky_high/taikarheaearlyrivals.png",
+            "date": 20200815,
+            "priority": 0
+        },
+        {
+            "name": "Taika idle animation",
+            "description": "an up-close shot of Taika's idle animation, where she draws a magic circle.",
+            "path": "assets/ttrpgs/sky_high/IdleAnimationTaikaZoom.gif",
+            "date": 20200904,
+            "priority": 0
+        },
+        {
+            "name": "cuties",
+            "description": "sparring got.... interrupted. we'll leave them to it.",
+            "path": "assets/ttrpgs/sky_high/cuties.gif",
+            "date": 20210601,
+            "priority": 0
+        },
+        {
+            "name": "Taika idle animation",
+            "description": "Taika's idle animation. she draws a magic circle.",
+            "path": "assets/ttrpgs/sky_high/IdleAnimationTaika.gif",
+            "date": 20200904,
+            "priority": 0
+        },
+        {
+            "name": "Ezra idle animation",
+            "description": "an idle animation of Ezra tapping their foot very fast (they have super speed)",
+            "path": "assets/ttrpgs/sky_high/IdleAnimationEzra.gif",
+            "date": 20200907,
+            "priority": 0
+        },
+        {
+            "name": "Lilli idle animation",
+            "description": "Lilli's idle animation, where she blows a gum bubble, stasises it, and then lets it pop.",
+            "path": "assets/ttrpgs/sky_high/IdleAnimationLilli.gif",
+            "date": 20200907,
+            "priority": 0
+        },
+        {
+            "name": "Luxin idle animation",
+            "description": "Luxin's idle animation where he turns his hand into a girder and then back again.",
+            "path": "assets/ttrpgs/sky_high/IdleAnimationLuxin.gif",
+            "date": 20200912,
+            "priority": 0
+        },
+        {
+            "name": "Fabian staff animation",
+            "description": "a quick study of one of Fabian's many staff attacks, where they form a bunch of runes as they put energy into them on the staff, then activating them all at once and launching a beam of energy at the villain.",
+            "path": "assets/ttrpgs/sky_high/fabiananimation.gif",
+            "date": 20201105,
+            "priority": 0
+        },
+        {
+            "name": "Taika gif",
+            "description": "an animation of Taika's early design turning and smiling at the camera",
+            "path": "assets/ttrpgs/sky_high/taikaearlygif.gif",
+            "date": 20200800,
+            "priority": 0
+        }
     ],
     "world_tour": [
 

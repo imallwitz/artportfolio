@@ -253,6 +253,7 @@ code adapted from a tutorial created by Professor Sarah Van Wart at Northwestern
     text-align: center;
     border: solid 5px orange;
     max-height: 500px;
+    overflow: hidden;
 }
 
 .featuredimage {
