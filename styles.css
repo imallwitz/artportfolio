@@ -15,9 +15,10 @@
 
 body {
     font-family: 'Work Sans', sans-serif;
-    color: #3f3e3e;
+    color: #cecece;
     margin: 0;
     background-color: #e8e9f3;
+    background-image: url("assets/starbg.PNG");
 }
 
 main {
@@ -106,17 +107,28 @@ intro styling
 .intro {
     display: grid;
     grid-template-columns: 40% 60%;
-    grid-template-rows: 125px auto;
+    grid-template-rows: 150px auto;
     grid-template-areas: 
     "a b"
     "a c";
+    padding-bottom: 50px;
+    margin: auto;
 }
 
 h1 {
     grid-area: b;
-    padding-top: 10px;
     font-family: "Comfortaa", sans-serif;
     font-size: 2.75em;
+    background-color: rgba(64, 65, 94, 0.9);
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 15px 20px 5px #38394d;
+    border: 0.5px #cecece solid;
+}
+
+.intro>h1 {
+    width: 60%;
+    text-align: center;
 }
 
 .intro>p{
@@ -124,6 +136,12 @@ h1 {
     justify-self: flex-start;
     margin-top: 0;
     font-size: 1.5em;
+    background-color: rgba(64, 65, 94, 0.9);
+    padding: 30px;
+    width: 60%;
+    border-radius: 50px;
+    box-shadow: 15px 20px 5px #38394d;
+    border: 0.5px #cecece solid;
 }
 
 .intro>img {
@@ -133,38 +151,80 @@ h1 {
     margin-top: 25px;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 1400px) {
     .intro {
-        grid-template-rows: 150px auto auto;
-        grid-template-columns: auto;
         grid-template-areas: 
-        "b"
-        "a"
-        "c";
+        "b b"
+        "a c";
     }
-
-    h1{
+    .intro>h1 {
         margin: auto;
+    }
+}
+
+@media (max-width: 1050px) {
+    .intro {
+        grid-template-areas: 
+        "b b"
+        "c c";
+    }
+    .intro>p {
+        margin: auto;
+    }
+    .intro>img {
+        display: none;
+    }
+}
+
+@media (max-width: 650px) {
+    nav {
+        display: none;
     }
 }
 
 /* 
 showcase styling
 */
-.showcase {
-    height: 1000px;
-    border: 5px turquoise solid;
+#showcase {
+    padding: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#showcase>img {
+    width: 25%;
+    box-shadow: 10px 10px 5px #38394d;
+}
+
+#showcase>i {
+    font-size: 2.5em;
+    color: #cecece;
+    border-radius: 1em;
+    box-shadow: 10px 10px 5px #38394d;
 }
 
 /*
 TTRPG PAGE STYLING
 */
 main>article {
-    border: 5px turquoise solid;
+    background-color: rgba(64, 65, 94, 0.9);
+    border-radius: 50px;
+    box-shadow: 15px 20px 5px #38394d;
+    border: 0.5px #cecece solid;
     margin-top: 50px;
     padding: 50px;
     display: flex;
     flex-direction: column;
+    color: #cecece;
+}
+
+.explanation {
+    background-color: rgba(64, 65, 94, 0.9);
+    padding: 10px 30px;
+    border-radius: 50px;
+    box-shadow: 15px 20px 5px #38394d;
+    border: 0.5px #cecece solid;
 }
 
 p>a {
@@ -216,7 +276,7 @@ code adapted from a tutorial created by Professor Sarah Van Wart at Northwestern
     justify-content: center;
     margin: 0;
     padding-left: 10px;
-    padding-top: 10px;
+    padding-top: 50px;
     min-height: max-content;
 }
 
@@ -250,10 +310,11 @@ code adapted from a tutorial created by Professor Sarah Van Wart at Northwestern
     "a c";
     grid-template-columns: 60% 40%;
     grid-template-rows: 30% 70%;
+    margin: 50px auto;
     text-align: center;
-    border: solid 5px orange;
     max-height: 500px;
     overflow: hidden;
+    width: 75%;
 }
 
 .featuredimage {
