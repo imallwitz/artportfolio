@@ -14,11 +14,11 @@
 */
 
 body {
+    background-image: url("assets/starbg.PNG");
     font-family: 'Work Sans', sans-serif;
     color: #cecece;
     margin: 0;
     background-color: #e8e9f3;
-    background-image: url("assets/starbg.PNG");
 }
 
 main {

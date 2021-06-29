@@ -6,8 +6,8 @@ const data = [
     "assets/pride/asterashe.PNG",
     "assets/pride/fig.PNG",
     "assets/pride/tess.PNG",
-    "assets/pride/taikarhea.PNG",
-    "assets/pride/briar.PNG",
+    "assets/pride/taikarhea.png",
+    "assets/pride/briar.png",
     "assets/pride/fabiandavid.PNG",
     "assets/pride/cassclaire.PNG"
 ]
