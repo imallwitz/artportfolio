@@ -17,43 +17,40 @@
     <body>
 
         <!-- nav bar -->
-        <nav>
-            <!-- home link -->
-            <a href="index.html">home</a>
-            <!-- ttrpg dropdown -->
-            <div class="dropdown">
-                <a href="ttrpgs.html">ttrpgs</a>
-                <div class="dropdown-menu">
-                    <a href="ttrpgs.html#starless">starless</a>
-                    <a href="ttrpgs.html#dreamscape">dreamscape</a>
-                    <a href="ttrpgs.html#sky-high">sky high</a>
-                    <a href="ttrpgs.html#world-tour">world tour</a>
-                    <a href="ttrpgs.html#children">children of beneath</a>
-                    <a href="ttrpgs.html#phoenix">phoenix academy</a>
-                    <a href="ttrpgs.html#misc">misc.</a>
-                </div>
-            </div>
-            <!-- classes dropdown -->
-            <div class="dropdown">
-                <a href="classes.html">classes</a>
-                <div class="dropdown-menu">
-                    <a href="classes.html#high-school">high school</a>
-                    <a href="classes.html#sculpture">intro to sculpture</a>
-                    <a href="classes.html#drawing">intro to drawing</a>
-                    <a href="classes.html#other">other classes</a>
-                </div>
-            </div>
-            <!-- assets link -->
-            <!-- <a href="originalart.html">assets & original art</a> -->
-            <!-- knitting link -->
-            <!-- <a href="knitting.html">knitting</a> -->
-        </nav>
+        <button class="ham">
+            <span class="openIcon">
+                <i class="far fa-caret-square-down"></i>
+            </span>
+            <span class="closeIcon">
+                <i class="far fa-caret-square-up"></i>
+            </span>
+        </button>
+        <ul class="menu">
+            <li><a href="index.html">home</a></li>
+            <li><a href="ttrpgs.html">ttrpgs</a></li>
+                <ul class="internalmenu">
+                    <li><a href="ttrpgs.html#starless">starless</a></li>
+                    <li><a href="ttrpgs.html#dreamscape">dreamscape</a></li>
+                    <li><a href="ttrpgs.html#sky-high">sky high</a></li>
+                    <li><a href="ttrpgs.html#world-tour">world tour</a></li>
+                    <li><a href="ttrpgs.html#children">children of beneath</a></li>
+                    <li><a href="ttrpgs.html#phoenix">phoenix academy</a></li>
+                    <li><a href="ttrpgs.html#misc">misc.</a></li>
+                </ul>
+            <li><a href="classes.html">classes</a></li>
+                <ul class="internalmenu">
+                    <li><a href="classes.html#high-school">high school</a></li>
+                    <li><a href="classes.html#sculpture">intro to sculpture</a></li>
+                    <li><a href="classes.html#drawing">intro to drawing</a></li>
+                    <li><a href="classes.html#other">other classes</a></li>
+                </ul>
+        </ul>
 
         <!-- main content -->
         <main>
 
             <div>
-                <h1>coursework</h1>
+                <h1 class="pagetitle">coursework</h1>
                 <div class="explanation">
                     <p>
                         though i'm mostly self-taught in my character drawing, 
@@ -85,5 +82,7 @@
         <footer>
 
         </footer>
+        <script src="https://kit.fontawesome.com/62a7c74d0d.js" crossorigin="anonymous"></script>
+        <script src="menu.js"></script>
     </body>
 </html>

@@ -32,79 +32,77 @@ body {
 }
 
 main {
-    margin: 100px 50px;
+    margin: 50px;
 }
 
 a {
     text-decoration: none;
-    color: #3f3e3e;
 }
 
 p {
     font-size: 1.25em;
 }
 
-
-/* 
-navbar styling
+/*
+    hamburger styling
 */
+.ham {
+    position: fixed;
+    z-index: 300;
+    top: 0.75em;
+    right: 1em;
+    font-size: 40px;
+    background: var(--blue);
+    color: var(--darkblue);
+    border: none;
+    border-radius: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
 
-nav {
-    display: flex;
-    width: 100%;
-    justify-content: space-evenly;
+.menu {
     position: fixed;
     top: 0;
-    padding: 5px;
-    background-color: var(--white);
-    border-bottom: 5px solid var(--yellow);
-    box-shadow: 0px 5px 10px var(--darkblue);
-}
-
-nav>*{
-    font-family: "Comfortaa", sans-serif;
-    font-size: 1.2em;
-    font-weight: bold;
+    right: 0;
+    bottom: 0;
+    margin: 100px 30px;
     padding: 10px;
-    border-radius: 5%;
+    width: max-content;
+    height: max-content;
+    border: 3px var(--blue) solid;
+    border-radius: 15px;
+    box-shadow: 15px 20px 5px var(--shadow);
+    list-style: none;
+    color: var(--white);
+    background: var(--darkblue);
+    transform: translateY(-200%);
+    transition: transform 0.2s;
 }
 
-nav>*:hover {
-    background-color: #a6a6a8;
+.menu a:visited {
+    color: var(--white);
 }
 
-.dropdown {
-    position: relative;
-    display: inline-block;
+.menu>li {
+    text-decoration: underline var(--blue) 3px;
+    padding: 5px;
+    font-size: 1.5em;
 }
 
-.dropdown-menu{
+.internalmenu {
+    list-style: none;
+}
+
+.internalmenu>li>a {
+    color: var(--blue);
+}
+
+.showMenu {
+    transform: translateY(0);
+}
+
+.closeIcon {
     display: none;
-    position: absolute;
-    font-size: 0.9em;
-    min-width: 190px;
-    background-color: var(--white);
-    border-left: 5px var(--yellow) solid;
-    border-radius: 2%;
-    padding: 5px;
-    margin-top: 10px;
-    left: -5px;
-    box-shadow: 5px 5px 10px #a6a6a8;
-}
-
-.dropdown-menu>a{
-    padding: 5px;
-    display: block;
-    border-bottom: 2px solid var(--darkblue);
-    font-weight: normal;
-}
-
-.dropdown-menu>a:hover {
-    background-color: #a6a6a8;
-}
-
-.dropdown:hover .dropdown-menu{
-    display: block;
 }
 
 /* 
@@ -126,7 +124,6 @@ intro styling
 }
 
 h1 {
-    grid-area: b;
     font-family: "Comfortaa", sans-serif;
     font-size: 2.75em;
     background-color: rgba(64, 65, 94, 0.9);
@@ -134,16 +131,27 @@ h1 {
     border-radius: 20px;
     box-shadow: 15px 20px 5px var(--shadow);
     border: 3px var(--yellow) solid;
+    width: 60%;
+    text-align: center;
+}
+
+.pagetitle {
+    width: max-content;
+    margin: auto;
+    margin-bottom: 50px;
 }
 
 .intro>h1 {
-    width: 62%;
-    text-align: center;
+    grid-area: b;
+    margin: initial;
+    height: max-content;
+    align-self: center;
 }
 
 .intro>p{
     grid-area: c;
     justify-self: flex-start;
+    align-self: center;
     margin-top: 0;
     font-size: 1.5em;
     background-color: rgba(64, 65, 94, 0.9);
@@ -152,13 +160,14 @@ h1 {
     border-radius: 50px;
     box-shadow: 15px 20px 5px var(--shadow);
     border: 3px var(--yellow) solid;
+    height: max-content;
 }
 
 .intro>img {
     grid-area: a;
-    width: 50%;
-    margin: auto;
-    margin-top: 25px;
+    width: 75%;
+    margin: 25px auto;
+    align-self: center;
 }
 
 @media (max-width: 1400px) {
@@ -209,7 +218,7 @@ showcase styling
 
 #showcase>i {
     font-size: 2.5em;
-    color: var(--white);
+    color: var(--blue);
     border-radius: 1em;
     box-shadow: 10px 10px 5px var(--shadow);
 }
@@ -217,16 +226,24 @@ showcase styling
 /*
 TTRPG PAGE STYLING
 */
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2em;
+}
+
 main>article {
     background-color: rgba(64, 65, 94, 0.9);
     border-radius: 50px;
     box-shadow: 15px 20px 5px var(--shadow);
     border: 3px var(--yellow) solid;
-    margin-top: 50px;
     padding: 50px;
     display: flex;
     flex-direction: column;
     color: var(--white);
+    width: 75%;
+    margin: auto;
+    margin-top: 50px;
 }
 
 .explanation {
@@ -235,10 +252,12 @@ main>article {
     border-radius: 50px;
     box-shadow: 15px 20px 5px var(--shadow);
     border: 3px var(--yellow) solid;
+    width: 75%;
+    margin: auto;
 }
 
 p>a {
-    color:var(--blue);
+    color: var(--blue);
     font-weight: bold;
 }
 
@@ -271,9 +290,14 @@ h2>i {
     font-size: 0.8em;
 }
 
+#misc>h2 {
+    font-size: 2.25em;
+}
+
 p>em {
     font-style: normal;
     font-weight: bold;
+    color: var(--blue);
 }
 
 /*
@@ -286,7 +310,6 @@ code adapted from a tutorial created by Professor Sarah Van Wart at Northwestern
     justify-content: center;
     margin: 0;
     padding-left: 10px;
-    padding-top: 50px;
     min-height: max-content;
 }
 
@@ -310,38 +333,31 @@ code adapted from a tutorial created by Professor Sarah Van Wart at Northwestern
 }
 
 .featured {
-    display: grid;
-    grid-template: 
-    "a b"
-    "a c";
-    grid-template-columns: 60% 40%;
-    grid-template-rows: 30% 70%;
+    display: flex;
+    flex-direction: column;
     margin: 50px auto;
     text-align: center;
-    max-height: 500px;
     overflow: hidden;
     width: 75%;
 }
 
 .featuredimage {
-    grid-area: a;
-    max-width: 100%;
-    max-height: 100%;
+    /* max-width: 100%; */
+    max-height: 500px;
     margin: auto;
 }
 
 .title {
-    grid-area: b;
-    font-family: Comfortaa, sans-serif;
+    font-family: Montserrat, sans-serif;
     font-size: 1.75em;
     margin: auto;
-    margin-top: 10%;
+    padding: 30px;
+    color: var(--green);
 }
 
 .description {
-    grid-area: c;
     font-weight: normal;
     font-style: italic;
-    margin: 5% 5%;
+    margin: 10px;
     font-size: 1.25em;
 }
