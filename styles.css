@@ -78,7 +78,7 @@ p {
     transition: transform 0.2s;
 }
 
-.menu>li>a:visited {
+.menu>li>a{
     color: var(--white);
 }
 
@@ -220,7 +220,7 @@ showcase styling
     box-shadow: 10px 10px 5px var(--shadow);
 }
 
-#showcase>i {
+#showcase>i{
     font-size: 2.5em;
     color: var(--blue);
     border-radius: 1em;
@@ -342,13 +342,25 @@ code adapted from a tutorial created by Professor Sarah Van Wart at Northwestern
     margin: 50px auto;
     text-align: center;
     overflow: hidden;
-    width: 75%;
+    width: 90%;
+}
+
+.featuredcard {
+    display: flex;
+    align-items: center;
 }
 
 .featuredimage {
-    /* max-width: 100%; */
+    max-width: 85%;
     max-height: 500px;
     margin: auto;
+}
+
+.featuredcard>i{
+    font-size: 3em;
+    color: var(--blue);
+    border-radius: 1em;
+    box-shadow: 10px 10px 5px var(--shadow);
 }
 
 .title {
